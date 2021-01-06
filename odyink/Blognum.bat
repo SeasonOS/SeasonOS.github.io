@@ -1,0 +1,1 @@
+set Blognum=3

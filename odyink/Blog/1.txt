@@ -1,0 +1,12 @@
+                    Odyink
+
+
+
+
+     Odyink CUI 博客系统(0.8 Beta)
+       By SMG(Batch for windows)
+       By Andy (python for Linux)
+                  官网：ody.ink
+备用官网：https://chosf.gitee.io/odyink
+             8月1日正式发布
+

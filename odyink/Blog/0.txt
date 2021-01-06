@@ -1,0 +1,6 @@
+欢迎使用Odyink for Windows Server(By SMG)
+
+
+
+Odyink是由Andy(python)和SMG(Batch)制作的命令行个人博客软件 
+
