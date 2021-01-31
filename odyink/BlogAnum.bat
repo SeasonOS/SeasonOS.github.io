@@ -1,1 +1,1 @@
-set BlogAnum=3 
+set BlogAnum=2 
