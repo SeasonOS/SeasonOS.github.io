@@ -2,27 +2,27 @@
 mkdir exptmp
 cd /d exptmp
 echo for Windows 10 x64
-CreateObject("SAPI.SpVoice").Speak "»¶Ó­À´µ½odyinkµÄBatchÊ¾Àý"
+wscript.exe CreateObject("SAPI.SpVoice").Speak "æ¬¢è¿Žæ¥åˆ°odyinkçš„Batchç¤ºä¾‹"
 pause
-echo ÏÂÔØËùÐèÈí¼þ
+echo ä¸‹è½½æ‰€éœ€è½¯ä»¶
 PowerShell wget https://smgdream.top/wget.exe -outfile wget.exe >nul
 wget -P ./ https://smgdream.top/7z.exe
-::wget -P(´óÐ´)Ö¸¶¨ÏÂÔØÄ¿Â¼ ./ÏÂÔØÄ¿Â¼(unix¸ñÊ½) https://smgdream.top/7z.exeÁ´½Ó
+::wget -P(å¤§å†™)æŒ‡å®šä¸‹è½½ç›®å½• ./ä¸‹è½½ç›®å½•(unixæ ¼å¼) https://smgdream.top/7z.exeé“¾æŽ¥
 wget -P ./ https://smgdream.top/ffplay.7z
-::7z e½âÑ¹ ffplay.7z½âÑ¹Ä¿±ê
+::7z eè§£åŽ‹ ffplay.7zè§£åŽ‹ç›®æ ‡
 7z e ffplay.7z
-echo ²¥·ÅÒôÆµ
+echo æ’­æ”¾éŸ³é¢‘
 Pause >nul
 wget -P ./ https://smgdream.top/5673op.mp3
-::ffplay -autoexit²¥·ÅÍê±Ï×Ô¶¯ÍË³ö 5673op.mp3²¥·ÅÄ¿±ê
+::ffplay -autoexitæ’­æ”¾å®Œæ¯•è‡ªåŠ¨é€€å‡º 5673op.mp3æ’­æ”¾ç›®æ ‡
 ffplay -autoexit 5673op.mp3
 cls
-echo ²¥·ÅÊÓÆµ
+echo æ’­æ”¾è§†é¢‘
 Pause >nul
 wget -P ./ https://smgdream.top/pp.mp4
 ffplay -autoexit pp.mp4
 cls
-echo »Ø³µÍË³ö
+echo å›žè½¦é€€å‡º
 Pause >nul
 del /q *.*
 goto :eof
