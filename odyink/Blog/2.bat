@@ -1,4 +1,4 @@
-@echo off
+@echo on
 mkdir exptmp
 cd /d exptmp
 echo for Windows 10 x64
