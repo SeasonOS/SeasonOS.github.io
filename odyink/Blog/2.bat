@@ -2,27 +2,33 @@
 mkdir exptmp
 cd /d exptmp
 echo for Windows 10 x64
-wscript.exe CreateObject("SAPI.SpVoice").Speak "æ¬¢è¿Žæ¥åˆ°odyinkçš„Batchç¤ºä¾‹"
+echo »¶Ó­À´µ½odyinkµÄBatchÊ¾Àý
+::echo CScript½Å±¾½âÊÍÆ÷ Ö¸¶¨¶ÔÏóËµ»° "Ëµ»°ÄÚÈÝ(Å®Éù)" µ½ peak0.vbs
+echo CreateObject("SAPI.SpVoice").Speak "»¶Ó­À´µ½odyinkµÄBatchÊ¾Àý">speak0.vbs
+.\speak0.vbs
 pause
-echo ä¸‹è½½æ‰€éœ€è½¯ä»¶
+echo ÏÂÔØËùÐèÈí¼þ
 PowerShell wget https://smgdream.top/wget.exe -outfile wget.exe >nul
 wget -P ./ https://smgdream.top/7z.exe
-::wget -P(å¤§å†™)æŒ‡å®šä¸‹è½½ç›®å½• ./ä¸‹è½½ç›®å½•(unixæ ¼å¼) https://smgdream.top/7z.exeé“¾æŽ¥
+::wget -P(´óÐ´)Ö¸¶¨ÏÂÔØÄ¿Â¼ ./ÏÂÔØÄ¿Â¼(unix¸ñÊ½) https://smgdream.top/7z.exeÁ´½Ó
 wget -P ./ https://smgdream.top/ffplay.7z
-::7z eè§£åŽ‹ ffplay.7zè§£åŽ‹ç›®æ ‡
+cls
+echo ½âÑ¹ÎÄ¼þÖÐ
+::7z e½âÑ¹ ffplay.7z½âÑ¹Ä¿±ê
 7z e ffplay.7z
-echo æ’­æ”¾éŸ³é¢‘
+cls
+echo ²¥·ÅÒôÆµ
 Pause >nul
 wget -P ./ https://smgdream.top/5673op.mp3
-::ffplay -autoexitæ’­æ”¾å®Œæ¯•è‡ªåŠ¨é€€å‡º 5673op.mp3æ’­æ”¾ç›®æ ‡
+::ffplay -autoexit²¥·ÅÍê±Ï×Ô¶¯ÍË³ö 5673op.mp3²¥·ÅÄ¿±ê
 ffplay -autoexit 5673op.mp3
 cls
-echo æ’­æ”¾è§†é¢‘
+echo ²¥·ÅÊÓÆµ
 Pause >nul
 wget -P ./ https://smgdream.top/pp.mp4
 ffplay -autoexit pp.mp4
 cls
-echo å›žè½¦é€€å‡º
+echo »Ø³µÍË³ö
 Pause >nul
 del /q *.*
 goto :eof
