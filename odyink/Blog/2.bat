@@ -21,13 +21,13 @@ rem 7z e解压 ffplay.7z解压目标
 cls
 echo 回车播放音频
 Pause >nul
-wget --no-check-certificate -P ./ https://smgdream.top/5673op.mp3
 rem ffplay -autoexit播放完毕自动退出 5673op.mp3播放目标
-ffplay -autoexit 5673op.mp3
+ffplay -autoexit https://smgdream.top/5673op.mp3
 cls
 echo 回车播放视频
 Pause >nul
-ffplay -autoexit https://smgdream.top/pp.mp4
+wget --no-check-certificate -P ./ https://smgdream.top/pp.mp4
+ffplay -autoexit pp.mp4
 cls
 echo 回车退出
 Pause >nul
