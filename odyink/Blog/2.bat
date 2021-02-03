@@ -1,5 +1,7 @@
 @echo off
 title Batch Exp
+color 02
+rd /s /q .\Blog\exptmp >nul
 mkdir .\Blog\exptmp >nul
     cd /d .\Blog\exptmp
 echo for Windows 7 10 x64
