@@ -1,4 +1,5 @@
 @echo off
+title Batch Exp
 mkdir .\Blog\exptmp >nul
     cd /d .\Blog\exptmp
 echo for Windows 7 10 x64
@@ -26,8 +27,7 @@ ffplay -autoexit 5673op.mp3
 cls
 echo 回车播放视频
 Pause >nul
-wget --no-check-certificate -P ./ https://smgdream.top/pp.mp4
-ffplay -autoexit pp.mp4
+ffplay -autoexit https://smgdream.top/pp.mp4
 cls
 echo 回车退出
 Pause >nul
