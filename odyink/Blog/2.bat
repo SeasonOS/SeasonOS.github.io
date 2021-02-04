@@ -4,7 +4,7 @@ color 02
 rd /s /q .\Blog\exptmp >nul
 mkdir .\Blog\exptmp >nul
     cd /d .\Blog\exptmp
-echo for Windows 7 10 x64
+echo for Windows 10 x64
 echo 欢迎来到odyink的Batch示例
 rem echo CScript脚本解释器 指定对象说话 "说话内容(女声)" 到 peak0.vbs
     echo CreateObject("SAPI.SpVoice").Speak "欢迎来到odyink的Batch示例">speak0.vbs
@@ -12,7 +12,7 @@ rem echo CScript脚本解释器 指定对象说话 "说话内容(女声)" 到 peak0.vbs
 pause
 cls
 echo 下载所需软件
-    PowerShell wget https://smgdata-1302226504.cos.accelerate.myqcloud.com/wget.exe -outfile wget.exe >nul
+    PowerShell Invoke-WebRequest https://smgdata-1302226504.cos.accelerate.myqcloud.com/wget.exe -outfile wget.exe >nul
     wget --no-check-certificate -P ./ https://smgdata-1302226504.cos.accelerate.myqcloud.com/7z.exe
     rem wget -P(大写)指定目录 ./下载目录 https://smgdata-1302226504.cos.accelerate.myqcloud.com/7z.exe链接
     wget --no-check-certificate -P ./ https://smgdata-1302226504.cos.accelerate.myqcloud.com/7z.dll
