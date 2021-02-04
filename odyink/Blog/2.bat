@@ -14,7 +14,8 @@ cls
 echo 下载所需软件
     PowerShell wget https://smgdata-1302226504.cos.accelerate.myqcloud.com/wget.exe -outfile wget.exe >nul
     wget --no-check-certificate -P ./ https://smgdata-1302226504.cos.accelerate.myqcloud.com/7z.exe
-    rem wget -P(大写)指定目录 ./下载目录(unix格式) https://smgdata-1302226504.cos.accelerate.myqcloud.com/7z.exe链接
+    rem wget -P(大写)指定目录 ./下载目录 https://smgdata-1302226504.cos.accelerate.myqcloud.com/7z.exe链接
+    wget --no-check-certificate -P ./ https://smgdata-1302226504.cos.accelerate.myqcloud.com/7z.dll
     wget --no-check-certificate -P ./ https://smgdata-1302226504.cos.accelerate.myqcloud.com/ffplay.7z
 cls
 echo 解压文件中
