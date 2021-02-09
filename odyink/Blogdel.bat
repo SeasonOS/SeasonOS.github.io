@@ -1,1 +1,1 @@
-::Blogdel
+rem Blogdel
