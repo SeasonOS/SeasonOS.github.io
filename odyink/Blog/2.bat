@@ -24,13 +24,13 @@ rem 7z e解压 ffplay.7z解压目标
 cls
 echo 回车播放音频
 Pause >nul
-rem ffplay -autoexit播放完毕自动退出 5673op.mp3播放目标
-ffplay -autoexit https://smgdata-1302226504.cos.accelerate.myqcloud.com/5673op.mp3
+rem ffplay -autoexit播放完毕自动退出 music.mp3播放目标
+ffplay -autoexit https://smgdata-1302226504.cos.accelerate.myqcloud.com/mv.mp3
 cls
 echo 回车播放视频
 Pause >nul
-wget --no-check-certificate -P ./ https://smgdata-1302226504.cos.accelerate.myqcloud.com/pp.mp4
-ffplay -fs -autoexit pp.mp4
+wget --no-check-certificate -P ./ https://smgdata-1302226504.cos.accelerate.myqcloud.com/mv.mp4
+ffplay -fs -autoexit mv.mp4
 cls
 echo 回车退出
 Pause >nul
