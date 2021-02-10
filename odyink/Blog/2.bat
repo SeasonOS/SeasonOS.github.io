@@ -25,7 +25,7 @@ cls
 echo 回车播放音频
 Pause >nul
 rem ffplay -autoexit播放完毕自动退出 music.mp3播放目标
-ffplay -autoexit https://smgdata-1302226504.cos.accelerate.myqcloud.com/mv.mp3
+ffplay -autoexit https://smgdata-1302226504.cos.accelerate.myqcloud.com/music.mp3
 cls
 echo 回车播放视频
 Pause >nul
